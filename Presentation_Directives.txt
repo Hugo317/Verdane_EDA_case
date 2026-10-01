@@ -1,0 +1,218 @@
+VERDANE — CUSTOMER & PROFITABILITY REVIEW
+Presenter directives — target 18-22 minutes, 31 slides
+Format: dark theme, matched to the Coop-case deck's visual language. Every story runs
+Divider (the question) -> Data slide(s) (conflict + resolution, chart-backed) -> Recommendation
+(plain bullets, no chart) — same shape as that reference deck.
+
+============================================================
+HOW TO USE THIS FILE
+============================================================
+- Section dividers (slides 4, 8, 12, 16, 20, 24) are 10-15 second slides — just read the
+  question on screen and move into the data. Don't over-explain them.
+- Spend your real time on the data slides and the recommendation slide that closes each story.
+- Slide 27 (Summary) is the intended close of the working session — walk it top to bottom.
+  Slide 28 ("Thank you") is just a landing slide for Q&A.
+- Slides 29-31 (Appendix) are backup only — pull them up if someone asks for methodology or
+  wants to see the math behind an illustrative number.
+- No embedded PowerPoint speaker notes in this file (a Keynote-compatibility constraint,
+  see below) — this document IS the talk track.
+
+============================================================
+SLIDE 1 — TITLE
+============================================================
+"VERDANE — Customer & Profitability Review." State the scope in one line: two years of
+order-level data, six questions, six opportunities. Move on quickly.
+
+============================================================
+SLIDE 2 — AGENDA
+============================================================
+On slide: the six section titles + their questions. Read each one as a question, not a
+label — that framing carries through the whole deck. ~20-30 seconds, don't dwell.
+
+============================================================
+SLIDE 3 — DATA & HEADLINE NUMBERS
+============================================================
+On slide: 6 stat tiles (revenue/profit/orders, last-12mo + YoY%), dataset footnote, framing box.
+LAND: "+210% revenue YoY. This isn't a rescue mission — it's about finding the next tens of
+millions inside a business that's already working."
+Say the caveat out loud: some numbers today are OBSERVED, some are ILLUSTRATIVE (sized from
+the data, not a forecast) — they're labeled as such throughout, so nobody mistakes a scenario
+for a commitment.
+
+============================================================
+STORY 1 — BUSINESS TRAJECTORY (slides 4-7)
+============================================================
+SLIDE 4 — DIVIDER
+Read the question: "Is the business still growing the way the headline number suggests?"
+
+SLIDE 5 — DATA: quarterly revenue chart, Q3 deceleration highlighted
+SETUP (say): "The instinct coming in was 'we don't actually know our growth rate.' We do —
+every quarter but one grew, some by triple digits."
+CONFLICT (say): "But the most recent quarter breaks that pattern — first real deceleration in
+the data. -14.9% QoQ in Q3 2020, after +119% the quarter before."
+
+SLIDE 6 — DATA: cohort repeat-rate comparison, resolution
+RESOLUTION (say): "Two things de-risk this. Customers acquired during the 2020 surge repeat
+MORE often than earlier customers — 10.5-12.3% vs 7.3-9.8% at 90 days. And new-customer
+acquisition hasn't slowed — still 78-83% of monthly orders in the last six months. Read Q3 as
+deceleration off an anomalous spike, not a structural problem."
+
+SLIDE 7 — RECOMMENDATION
+Say: watch Q4 close before reading anything structural into one quarter. Flag the seasonality
+caveat if asked: not confirmed, only one full clean year of data, and 2019's pattern didn't
+repeat in 2020.
+
+============================================================
+STORY 2 — FREE SHIPPING (slides 8-11)
+============================================================
+SLIDE 8 — DIVIDER
+Read the question: "Is our biggest shipping perk quietly costing us profit?"
+
+SLIDE 9 — DATA: band-vs-rest investigation
+SETUP (say): "Profit per order dips visibly for 800-1200g orders — the instinct is that free
+shipping is costing us here."
+CONFLICT (say): "Weight and value correlate strongly overall (r=0.72), but that link vanishes
+inside the band (r=0.02)."
+RESOLUTION (say): "One standardized ~1,158g product, 99.9% free-shipped, drives the dip. Paid
+and free orders both keep normal profit levels inside the band. No shipping-cost failure here —
+it's a product-mix effect."
+
+SLIDE 10 — DATA: paid vs free (2.8x) + causal caveat
+Say deliberately, don't skip: "Free-shipping orders ARE our most valuable segment — 2.8x the
+profit per order, and that correlation is strong everywhere we cut the data. But here's the
+nuance that matters for any spend decision: our one causal test — customers observed before
+and after their first free-shipping order, normalized for time — did NOT show free shipping
+increasing purchase frequency. If anything, a small, likely-noisy decline."
+
+SLIDE 11 — RECOMMENDATION
+Lead with: run a controlled A/B test on the spend threshold before investing in a conversion
+campaign. Don't roll out a push on correlation alone. If pressed for a number: converting 20%
+of paid-shipping orders would be worth an estimated $12.2M IF the causal effect is real —
+unvalidated, full math in the appendix.
+
+============================================================
+STORY 3 — HIGH-VALUE CUSTOMERS (slides 12-15)
+============================================================
+SLIDE 12 — DIVIDER
+Read the question: "Who are our best customers, and are we finding enough of them?"
+
+SLIDE 13 — DATA: share of customers/profit + Gini
+Say: "Top 10% of customers by lifetime spend drive a third of all profit — margin doesn't
+differ by segment, so this is purely a basket-size story." If asked about whale risk: "Gini of
+0.437 is moderate concentration — top 1% only holds about 7% of profit. Healthy base, not
+propped up by a handful of accounts."
+
+SLIDE 14 — DATA: GDP-vs-HV-rate residual chart
+Say: "The US converts to high-value customers at roughly 2x what its GDP would predict —
+biggest outlier by far. The Nordics — wealthy markets — all under-convert, Norway worst of all
+despite the highest GDP in the group. Timing and margin are identical between HV and regular
+customers in every market — this is entirely a basket-building story, not retention."
+
+SLIDE 15 — RECOMMENDATION ($5.8M)
+Lead with the number, then the ask: a targeted Nordic basket-building campaign — bundling,
+thresholds, merchandising — not a loyalty or retention play. Say the caveat out loud: this is a
+straight-line estimate off today's averages, not a piloted result.
+
+============================================================
+STORY 4 — LOYALTY (slides 16-19)
+============================================================
+SLIDE 16 — DIVIDER
+Read the question: "Why do so few customers come back — and does it matter?"
+
+SLIDE 17 — DATA: AOV by order sequence (flat/-8.7%)
+Say: "85.8% of customers buy exactly once. If you assumed repeat customers simply buy bigger
+baskets over time, the data says the opposite — order size drops 8.7% from the 1st to 2nd
+order, then goes flat. So where's the extra lifetime value coming from?"
+
+SLIDE 18 — DATA: lifetime value by tier, 12-month ratio
+Say: "Value scales entirely with how many times someone comes back, not how much they spend
+per visit. A 2nd order roughly doubles lifetime value; a 4th roughly quadruples it. The gap
+keeps widening over the first year — 1.4x at first purchase, 2.2x by month 12."
+
+SLIDE 19 — RECOMMENDATION
+Design the loyalty program around triggering the SECOND purchase specifically — a next-buy
+incentive — not basket-size upsell. If pressed for a number: a 25%-of-one-timers conversion
+scenario is worth up to $53.7M — present as an aggressive ceiling, not a plan (full math in
+appendix).
+
+============================================================
+STORY 5 — COUNTRY PROFITABILITY (slides 20-23)
+============================================================
+SLIDE 20 — DIVIDER
+Read the question: "Which markets need a pricing fix vs. a cost fix?"
+
+SLIDE 21 — DATA: margin by country (16.5-point spread)
+Say: "By volume, DE and SE look like our top two markets — and they are. But margin tells a
+different story: GB, US and CA all sit well below average despite being large, established
+markets — a 16.5-point spread that volume rankings hide completely."
+
+SLIDE 22 — DATA: GB free-shipping rate + investigation
+Say: "Shipping cost as % of order value predicts profit-per-order (r=-0.73) but not margin
+itself (r=0.08) — margin is a flat rate that doesn't net out shipping cost directly. GB's
+free-shipping rate is 48.6%, lowest of any major market vs. 71-74% in DE/SE — a real, fixable
+gap. US and CA have the highest order values AND the lowest shipping-cost share, yet the lowest
+margins — that rules out shipping; looks like product mix or cost structure instead."
+
+SLIDE 23 — RECOMMENDATION ($4.6M, fully diagnosed)
+Say: "This one isn't a projection — it's GB's actual revenue re-priced at Germany's actual
+margin. $4,603,141, a 22.2% uplift on GB's current profit." Two separate workstreams: GB gets a
+free-shipping/margin push, US/CA gets a product-mix and cost-structure review with data we'd
+need to pull in.
+
+============================================================
+STORY 6 — ORDER-LEVEL COST LEAKS (slides 24-26)
+============================================================
+SLIDE 24 — DIVIDER
+Read the question: "Are any orders actually losing us money?"
+
+SLIDE 25 — DATA: weight-band distribution, all vs. zero-value orders
+Say: "They don't exist in this data — minimum profit is exactly zero, margin never drops below
+42%, so a negative-profit order is structurally impossible here. That doesn't mean nothing's
+there: 1.12% of orders carry $0-25 profit and account for 4.68% of all shipped weight — nearly
+5x their fair share. Median weight on these orders is 3,173g versus 192g typical."
+
+SLIDE 26 — RECOMMENDATION
+Pull a manual sample to find the cause — free-shipped returns, warranty replacements,
+sample/wholesale orders, or a pricing override bug; each has a different fix. Data-hygiene
+aside if relevant: profit tracking is entirely missing for Oct 2018-Jan 2019 — flag to the data
+team as a gap, separate from this finding.
+
+============================================================
+SLIDE 27 — SUMMARY (the close)
+============================================================
+Table ranked by confidence, not size. Walk top to bottom:
+  1. GB margin/product review — $4.6M, HIGH confidence, fully diagnosed.
+  2. Zero-value order audit — cost reduction, HIGH confidence, cheapest to start.
+  3. Nordic HV campaign — ~$5.8M, MEDIUM, correlational.
+  4. Loyalty/2nd-purchase program — up to $53.7M ceiling, MEDIUM, directional.
+  5. Free-shipping A/B test — up to $12.2M IF validated, LOW until tested.
+CLOSE THE MEETING: ask the room which 1-2 they want to greenlight first — GB and the order
+audit are ready to act on now; the other three need a follow-up (a test, a campaign brief, a
+program design) before committing spend.
+
+============================================================
+SLIDE 28 — THANK YOU
+============================================================
+Landing slide for Q&A. Nothing to present, just hold here.
+
+============================================================
+SLIDES 29-31 — APPENDIX (backup only)
+============================================================
+29: Appendix divider.
+30: Data window, definitions (HV = top 10% lifetime spend, repeat = 2+ orders), the Oct
+    2018-Jan 2019 profit-tracking gap, and why margin ≠ "shipping-adjusted."
+31: Full math behind every illustrative number (free shipping $12.2M, Nordic HV $5.8M, loyalty
+    $53.7M ceiling, GB $4.6M) — pull this up if anyone asks "show me how you got that."
+
+============================================================
+THINGS TO BE READY FOR
+============================================================
+- "Is the free-shipping number real?" -> No, explicitly not yet — that's the whole point of
+  slide 10-11. Don't let anyone walk away treating $12.2M as committed upside.
+- "Why is the loyalty number so big?" -> It's a ceiling (25% conversion, aggressive), not a
+  plan. Anchor on the qualitative finding (frequency > basket size); the dollar figure shows
+  scale, not a target.
+- "What about US/CA?" -> Be honest this dataset can't diagnose it further — needs
+  product/COGS data this analysis doesn't have. Don't guess at a cause.
+- "Is the Q3 slowdown COVID?" -> Correlated with the timing, not proven causally — no
+  channel/marketing-spend data to confirm. Say "consistent with," not "caused by."

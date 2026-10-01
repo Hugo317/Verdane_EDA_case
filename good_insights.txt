@@ -1,0 +1,76 @@
+COMPANY GROWTH
+    Problem: no prior context on the company's growth rate, seasonality, etc.
+    Plan: check YoY growth rate and seasonality.
+    Data: overall growth, profitability and customer acquisition.
+    Analysis: growth over the past 2 years is ~3x YoY, which is strong.
+    There is a break in the last 2 quarters where growth slows (possibly COVID).
+    Customer count is growing and baskets are getting bigger.
+    No clear seasonality.
+    Acquired customers are ordering more often over time and staying loyal.
+    Conclusion: the business roughly tripled in 2 years; the recent slowdown
+    looks like a one-off dip rather than a structural problem, since newer
+    customers are more loyal, not less.
+
+FREE SHIPPING
+    Problem: at first glance the free-shipping threshold looks like it costs
+    a lot of value in the "drop" range.
+    Plan: understand why that drop happens.
+    Data: compare profit in other ranges against the "drop" range.
+    Analysis: the drop is actually GOOD for the company, because free-shipping
+    status makes customers spend more. I also checked whether converting
+    customers from paid to free shipping is worthwhile, and it is.
+    Conclusion: free shipping drives a substantial increase in sales/profit,
+    and converting customers does too. We should keep incentivising free
+    shipping and try to move more paid-shipping customers to it.
+    Idea: an experiment with one group offered free shipping at a lower order
+    threshold than usual, one group with 50% off shipping at a lower bracket,
+    and a control group, to see if this creates more high-value customers.
+    To quantify for the deck: profit impact if we convert 20% of paid-shipping
+    customers to free shipping.
+
+HIGH-VALUE CUSTOMERS
+    Problem: understand who our best customers are and how valuable they are.
+    Plan: analyse the top 10% - where they come from, how much they spend -
+    and compare them to the average customer.
+    Data: which countries have a high HV %, how much HV customers are worth,
+    and GDP vs HV rate.
+    Analysis: DE, US and FR have more HV than regular customers. HV customers
+    are ~3.2x more valuable than non-HV. Countries like DK, FI, SE, NL, NO
+    have high GDP but a much lower HV rate.
+    Conclusion: HV customers are very valuable and worth retaining.
+    The US is a large outlier on GDP per capita; Norway is the opposite.
+    The underperforming countries are in northern Europe, so a targeted
+    campaign there to win HV customers makes sense.
+    To quantify for the deck: lost profit vs if these countries matched their
+    GDP-expected HV rate - profit at GDP-expected rate, and at 20% above.
+
+REPEAT CUSTOMERS
+    Problem: only 14.2% of customers place a second order.
+    Plan: confirm this in the data and see how a customer evolves over time.
+    Analysis: lifetime value grows ~50% per additional order, driven by
+    higher frequency rather than bigger baskets.
+    Conclusion: don't push for bigger baskets; push for the next purchase,
+    e.g. a next-buy incentive. Customers are compounding ~1.4x more valuable
+    per order at ~2.2x the frequency over a 12-month average, so a loyalty
+    campaign could work.
+    To quantify for the deck: impact if we convert 25% of non-loyal customers
+    to loyal.
+
+COUNTRY PROFITABILITY
+    Problem: Q2 ranked countries by HV conversion rate but never checked
+    whether margin/profit per order actually varies by country, or whether
+    the shipping cost structure is eating profit in some markets.
+    Plan: build country-level profit per order and margin, and check against
+    shipping fee as a % of average order value.
+    Analysis: margin swings from 54.4% (US) to 70.9% (DE) among top markets,
+    far more than the order-volume ranking suggests. Shipping as % of AOV
+    explains profit per order (corr -0.73) but NOT margin (corr 0.08),
+    because Profit = Total_amount * Profit_margin exactly in the data, so
+    margin is a flat rate not reduced by shipping cost directly.
+    Conclusion: GB is the weak spot - lowest free-shipping rate (48.6% vs
+    71-74% for DE/SE, which ties back to Q1) AND a separate margin gap to DE
+    worth ~4.6M / +22% profit if closed. US/CA are a different issue: highest
+    AOV but lowest margin despite the lowest shipping-cost share, so not a
+    shipping fix - looks like a product-mix / cost-structure question.
+    To quantify for the deck: the 4.6M GB margin-gap figure. Two separate
+    playbooks are needed per market, not one universal fix.
